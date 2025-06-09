@@ -1,0 +1,28 @@
+{
+    // FORMATO
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+
+    // SOLIDITY
+    "solidity.compileUsingRemoteVersion": "v0.8.20+commit.a1b79de6",
+    "solidity.defaultCompiler": "remote",
+
+    // CIRCOM
+    "files.associations": {
+      "*.circom": "plaintext"
+    },
+
+    // JAVASCRIPT / TYPESCRIPT
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // ESLINT / PRETTIER
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+
+    // PATHS
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }
